@@ -1,6 +1,6 @@
 export default function comingTitle() {
 
-  const arrow = document.querySelector('#arrow');
+  //const arrow = document.querySelector('#arrow');
   const triangle = document.querySelector('#triangle');
   const triangleOut = document.querySelector('#triangle-out');
 
@@ -95,7 +95,7 @@ export default function comingTitle() {
         },
       });
       tl2.to('#arrow', {
-        yPercent: 4200,
+        yPercent: 4350,
         rotation: 360,
         xPercent: -30,
       });

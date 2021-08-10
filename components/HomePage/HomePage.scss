@@ -63,7 +63,7 @@
 #triangle-out {
   width: 15vw;
   transform: rotateZ(7deg) translateY(10%);
-  margin-top: 10px;
+  margin-top: 1vw;
   height: 10%;
   display: none;
 }
@@ -186,16 +186,10 @@
   }
 }
 
-/* @media screen and (max-width: 1440px) {
-  #container {
-    height: 900vh;
-  }
-} */
-
 @media screen and (max-width: 1000px) {
-  body {
+  /* #about-container {
     height: 1170vh;
-  }
+  } */
   .couch-container {
     left: 10%;
     .frames {
@@ -213,14 +207,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  #about-container {
     height: 930vh;
   }
 }
 
 @media screen and (max-width: 500px) {
-  body {
-    height: 800vh;
+  #about-container {
+    height: 630vh;
   }
   .couch {
     top: 80vw;
