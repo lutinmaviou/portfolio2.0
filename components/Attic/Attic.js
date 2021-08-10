@@ -6,21 +6,11 @@ import cloudName from '../../cloudinary/cloudName';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import atticParallax from '../../gsap/PortfolioPage/atticParallax';
-//import Router from 'next/router';
 
 export default function Attic() {
   useEffect(() => {
     atticParallax();
   }, []);
-
-  /* useEffect(() => {
-    Router.onRouteChangeComplete = () => {
-      window.scroll({
-        top: 0,
-        left: 0,
-      });
-    };
-  }, []); */
 
   useEffect(() => {
     window.scroll({

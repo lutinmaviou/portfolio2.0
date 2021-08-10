@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import { buildUrl } from 'cloudinary-build-url';
 import cloudName from '../../cloudinary/cloudName';
-import { motion } from 'framer-motion';
 import Button from '../Utils/Button';
 import Link from 'next/link';
 import { useRouter } from 'next/router';

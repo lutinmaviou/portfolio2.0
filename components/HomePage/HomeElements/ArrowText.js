@@ -1,9 +1,7 @@
 import Image from 'next/image';
-import { useEffect } from 'react';
 import { buildUrl } from 'cloudinary-build-url';
 import cloudName from '../../../cloudinary/cloudName';
 import Link from 'next/link';
-import Router from 'next/router';
 
 const ArrowText = () => {
  
