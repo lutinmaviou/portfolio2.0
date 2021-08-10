@@ -1,0 +1,44 @@
+.attic-container {
+  perspective: 2500px;
+}
+
+.attic-trap {
+  position: absolute;
+  max-width: 12vw;
+  bottom: 2vw;
+  left: 45vw;
+  opacity: 0;
+  z-index: 2;
+}
+
+.trap-cursor {
+  position: absolute;
+  bottom: 2vw;
+  left: 45vw;
+  max-width: 12vw;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.attic-description {
+  width: 100%;
+  background-color: rgb(27, 13, 43);
+  position: absolute;
+  top: 200vh;
+  color: rgb(216, 161, 88);
+}
+
+.attic-text {
+  text-align: center;
+  padding-bottom: 1vw;
+  font-size: 3vw;
+  span {
+    color: orange;
+    text-shadow: 0.1vw 0.1vw 0.5vw rgb(179, 150, 22);
+    &:hover {
+      color: red;
+      text-shadow: 0.1vw 0.1vw 0.5vw rgb(218, 0, 0);
+      cursor: pointer;
+    }
+  }
+}

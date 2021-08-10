@@ -1,0 +1,274 @@
+#about-container {
+  position: relative;
+  background: url('https://res.cloudinary.com/lutinmaviou/image/upload/v1618582182/portfolio/home-page/cartographer_jveyie.png');
+  background-size: contain;
+  background-color: #000000;
+  width: 100%;
+  height: 1110vh;
+  //opacity: 0;
+}
+
+.couch-container {
+  position: absolute;
+  left: 3%;
+  width: 70vw;
+  //justify-content: center;
+  align-items: center;
+  .frames {
+    padding: 2vw 7vw;
+  }
+}
+
+.title {
+  h1 {
+    font-size: 5.5vw;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    border: 0.66vw solid white;
+    border-radius: 0.5vw;
+    padding: 5px 30px;
+    box-shadow: 0 0 20px white;
+    text-shadow: 0 0 70px white;
+    transform: translateY(-15%);
+    left: 3%;
+  }
+}
+
+#arrow {
+  position: absolute;
+  transform: translateY(28%);
+  left: 50%;
+  width: 45vw;
+}
+
+#arrow-title {
+  width: 34vw;
+  font-size: 6.5vw;
+  color: white;
+  border: 0.6vw solid white;
+  border-radius: 0.5vw;
+  padding: 0px 8vw 0px 2.2vw;
+  box-shadow: 0 0 20px white;
+  text-shadow: 0 0 70px white;
+  margin-left: -10vw;
+  &:hover {
+    cursor: url('../../public/pointer.png') 21 10, pointer;
+  }
+}
+
+#triangle {
+  width: 12vw;
+  margin-top: 1.9vw;
+}
+
+#triangle-out {
+  width: 15vw;
+  transform: rotateZ(7deg) translateY(10%);
+  margin-top: 10px;
+  height: 10%;
+  display: none;
+}
+
+.spider-web {
+  position: absolute;
+  right: 0;
+  width: 15vw;
+  height: auto;
+}
+
+#spider {
+  position: absolute;
+  width: 5vw;
+  top: 100%;
+  right: 11%;
+  cursor: grab;
+}
+
+#oil-lamp {
+  position: fixed;
+  width: 17vw;
+  top: 10vh;
+  left: 76%;
+  transform: translateY(-59%);
+  z-index: 2;
+}
+
+.oil-lamp {
+  position: absolute;
+  width: 17vw;
+  z-index: 5;
+}
+
+#shadow-circle {
+  position: fixed;
+  width: 17vw;
+  top: 10vh;
+  left: 76%;
+  transform: translateY(370%);
+  z-index: 1;
+}
+
+.circle {
+  position: relative;
+  width: 2.9vw;
+  height: 2.9vw;
+  border-radius: 50%;
+  animation: shine 8s infinite;
+  margin: auto;
+}
+
+.welcome-text {
+  position: absolute;
+  width: 6vw;
+  top: 15vh;
+  left: 80%;
+  transform: translateY(50%);
+  color: rgb(20, 20, 20);
+  font-size: 10vw;
+  align-items: center;
+  text-shadow: -1vw 2vw 0.5vw;
+  z-index: 2;
+}
+
+#presentation {
+  position: relative;
+  color: white;
+  top: 280vw;
+  font-size: 4vw;
+}
+
+.top-text {
+  opacity: 0;
+}
+
+#text {
+  width: 80%;
+  padding: 2vw;
+}
+
+.bottom-text {
+  position: absolute;
+  right: 0;
+  width: 80%;
+  text-align: right;
+  padding: 2vw;
+  margin-top: 40vw;
+}
+
+.orange {
+  font-weight: bold;
+  color: orangered;
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 15vw 1.3vw rgb(255, 166, 0), 0 0 11.75vw 4.2vw rgb(255, 166, 0);
+  }
+  20% {
+    box-shadow: 0 0 15vw 2.6vw rgb(255, 166, 0), 0 0 11.75vw 4.2vw rgb(255, 166, 0);
+  }
+  50% {
+    box-shadow: 0 0 15vw 0.65vw rgb(255, 166, 0), 0 0 11.75vw 4.2vw rgb(255, 166, 0);
+  }
+  70% {
+    box-shadow: 0 0 15vw 3.9vw rgb(255, 166, 0), 0 0 11.75vw 4.2vw rgb(255, 166, 0);
+  }
+  100% {
+    box-shadow: 0 0 15vw 1.3vw rgb(255, 166, 0), 0 0 11.75vw 4.2vw rgb(255, 166, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #container {
+    height: 900vh;
+  }
+  /* #black-curtain {
+    position: absolute;
+    top: 550vw;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+  }
+
+  #theater-curtain {
+    position: absolute;
+    top: 550vw;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 -100px 150px rgba(221, 6, 6, 0.849);
+    z-index: 2;
+  }
+
+  #red-curtain {
+    position: absolute;
+    top: 550vw;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+
+  #enter-theater {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 550vw;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#000000, #000000, #883b0e);
+  } */
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: 1170vh;
+  }
+  .couch-container {
+    left: 10%;
+    .frames {
+      display: flex;
+      flex-direction: column;
+      padding: 2vw 25vw;
+    }
+  }
+  .welcome-text {
+    top: 70vh;
+  }
+  #presentation {
+    top: 400vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 930vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    height: 800vh;
+  }
+  .couch {
+    top: 80vw;
+  }
+  .frames {
+    top: 5vh;
+  }
+  #arrow {
+    transform: translateY(32%);
+  }
+  #presentation {
+    font-size: 7vw;
+  }
+}

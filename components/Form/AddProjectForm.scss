@@ -1,0 +1,62 @@
+#form-container {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+#form-title {
+  text-align: center;
+  font-size: 5vw;
+  color: #ff3d00;
+}
+
+.spaced {
+  margin-top: 2rem;
+}
+
+.cross-icon {
+  color: #ff3d00;
+}
+
+.plus-icon {
+  color: #00a152;
+}
+
+.input {
+  width: 80%;
+  padding: 2vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 2vw;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid blueviolet;
+}
+
+.icon {
+  margin: -1vw 1vw 0 1vw;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  margin: 1rem 1rem 10rem 1rem;
+  font-size: 1.5rem;
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-1 {
+  background-color: teal;
+}
+
+.chevrons {
+  margin-left: 1vw;
+}
